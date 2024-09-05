@@ -16,7 +16,9 @@ ex: Pessoa e Atleta podem ter o metodo public void andar(), embora tenham a mesm
 - Sem final ou static
 - A subclasse precisa conseguir acessar o metodo
 - Opcional, embora recomendado para uma melhor leitura do codigo, usar a anotação `@Override` em cima da assinatura do metodo na subclasse
+
 <br>
+
 ## Parametrizacao Generics:
 Utilizando o `T` ou `<T>` permite criaççao de metodos com tipos de parametros genericos, porém na hora de utilizaça, exemplo: na chamada de um metodo, ele aceitara qualquer tipo exceto o T
 
