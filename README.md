@@ -34,6 +34,7 @@ Aulas:
 - [Aula 3 - Construtores, Herança, Composiçao e Agregação](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_02/)
 - [Aula 4 - Polimorfismo e inicio de Modificadores](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_03/)
 - [Aula 5 - Continuação de Modificadores e Interface](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_10/)
+- [Aula 6 - JavaFX](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_06)
 
 ## Agradecimentos
 Agradeço ao professor Antonio Rodrigues Carvalho Neto e todos os professores da FATEC Zona Leste por todo o aprendizado passado e desafios propostos.
