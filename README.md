@@ -21,7 +21,7 @@
 
 ## Proposta do projeto
 Exercicios e exemplos feitos em aula, da disciplina de POO, do curso de Análise e desenvolvimento de sistemas da FATEC Zona Leste, conforme vou tendo as aulas vou atualizando esse repositorio<br>
-Em algumas aula eu fiz algumas anotações então dentro do pacote da aula pode ter um README da aula, a exemplo da aula 5: [Clique aqui para ver o readme da aula 5](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_10/README_AULA_10.md)
+Em algumas aula eu fiz algumas anotações então dentro do pacote da aula pode ter um README da aula, a exemplo da aula 5: [Clique aqui para ver o readme da aula 5](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_05/README_AULA_05.md)
 
 # Tecnologias
 - Linguagem
@@ -31,10 +31,11 @@ Em algumas aula eu fiz algumas anotações então dentro do pacote da aula pode 
 🚧Em andamento 🚧
 
 Aulas:
-- [Aula 3 - Construtores, Herança, Composiçao e Agregação](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_02/)
-- [Aula 4 - Polimorfismo e inicio de Modificadores](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_03/)
-- [Aula 5 - Continuação de Modificadores e Interface](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_10/)
-- [Aula 6 - JavaFX](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_06)
+- [Aula 4 - Construtores, Herança, Composiçao e Agregação](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_04/)
+- [Aula 5 - Polimorfismo e inicio de Modificadores](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_05/)
+- [Aula 6 - Continuação de Modificadores e Interface](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_6/)
+- [Aula 7 - JavaFX](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_07)
+- [Aula 8 - Observer e Eventos em JavaFX](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_08)
 
 ## Agradecimentos
 Agradeço ao professor Antonio Rodrigues Carvalho Neto e todos os professores da FATEC Zona Leste por todo o aprendizado passado e desafios propostos.
