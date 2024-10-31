@@ -47,10 +47,4 @@ public class Contato {
     public void setDataNascimento(LocalDate dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
-
-    @Override
-    public String toString() {
-        return String.format("Contato(nome=%s, telefone=%s, email=%s)",
-        this.nome,this.telefone,this.email);
-    }
 }

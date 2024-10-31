@@ -14,13 +14,13 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class ContatoBoundary extends Application{
-    
+public class ContatoBoundary extends Application {
+
     private Label lblId = new Label("");
     private TextField txtNome = new TextField("");
     private TextField txtTelefone = new TextField("");
     private TextField txtEmail = new TextField("");
-    private DatePicker txtNascimento = new DatePicker(LocalDate.now());
+    private DatePicker dateNascimento = new DatePicker(LocalDate.now());
 
     private TableView<Contato> tableView = new TableView<>();
 
@@ -31,29 +31,31 @@ public class ContatoBoundary extends Application{
         BorderPane panePrincipal = new BorderPane();
 
         GridPane paneForm = new GridPane();
-        paneForm.add(new Label("Id: "),0,0);
-        paneForm.add(new Label("Nome: "),0,1);
+        paneForm.add(new Label("Id: "), 0, 0);
+        paneForm.add(lblId, 1, 0);
+        paneForm.add(new Label("Nome: "), 0, 1);
         paneForm.add(txtNome, 1, 1);
-        paneForm.add(new Label("Telefone: "),0,2);
+        paneForm.add(new Label("Telefone: "), 0, 2);
         paneForm.add(txtEmail, 1, 2);
-        paneForm.add(new Label("Email: "),0,3);
+        paneForm.add(new Label("Email: "), 0, 3);
         paneForm.add(txtTelefone, 1, 3);
-        paneForm.add(new Label("Nascimento: "),0,4);
-        paneForm.add(txtNascimento, 1, 4);
+        paneForm.add(new Label("Nascimento: "), 0, 4);
+        paneForm.add(dateNascimento, 1, 4);
 
-       
         Button btnGravar = new Button("Gravar");
         btnGravar.setOnAction(e -> {
             control.gravar();
         });
 
-        
         Button btnPesq = new Button("Pesquisar");
         btnPesq.setOnAction(e -> {
             control.pesquisarPorNome();
         });
         paneForm.add(btnGravar, 0, 5);
         paneForm.add(btnPesq, 1, 5);
+
+        generateColumns();
+        vincularPropriedades();
 
         panePrincipal.setTop(paneForm);
         panePrincipal.setCenter(tableView);
@@ -83,17 +85,17 @@ public class ContatoBoundary extends Application{
 
         tableView.getColumns().addAll(col1, col2, col3, col4, col5);
 
-        tableView.setItems( control.getLista() );
+        tableView.setItems(control.getLista());
     }
 
     public void vincularPropriedades() {
         Bindings.bindBidirectional(txtNome.textProperty(), control.nomProperty());
         Bindings.bindBidirectional(txtEmail.textProperty(), control.emailProperty());
         Bindings.bindBidirectional(txtTelefone.textProperty(), control.telefoneProperty());
-        Bindings.bindBidirectional(txtNascimento.valueProperty(), control.nascimentoProperty());
+        Bindings.bindBidirectional(dateNascimento.valueProperty(), control.nascimentoProperty());
     }
 
     public static void main(String[] args) {
-        launch(ContatoBoundary.class,args);
+        launch(ContatoBoundary.class, args);
     }
 }

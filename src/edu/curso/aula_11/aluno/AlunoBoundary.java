@@ -1,4 +1,4 @@
-package edu.curso.aula_10.aluno;
+package edu.curso.aula_11.aluno;
 
 import javafx.application.Application;
 import javafx.beans.binding.Bindings;

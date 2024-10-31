@@ -36,7 +36,10 @@ Aulas:
 - [Aula 6 - Continuação de Modificadores e Interface](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_6/)
 - [Aula 7 - JavaFX](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_07)
 - [Aula 8 - Observer e Eventos em JavaFX](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_08)
-
+- [Aula 9 - Boundary Entity Control](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_09)
+- Aula 10 PROVA
+- [Aula 11 - JAVAFX Property](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_11)
+- [Aula 12 - TableView](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_12)
 ## Agradecimentos
 Agradeço ao professor Antonio Rodrigues Carvalho Neto e todos os professores da FATEC Zona Leste por todo o aprendizado passado e desafios propostos.
 

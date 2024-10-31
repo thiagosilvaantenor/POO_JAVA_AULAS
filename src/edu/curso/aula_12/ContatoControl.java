@@ -13,6 +13,7 @@ public class ContatoControl {
     private StringProperty email = new SimpleStringProperty();
     private StringProperty telefone = new SimpleStringProperty();
     private ObjectProperty<LocalDate> nascimento = new SimpleObjectProperty<>();
+
     private int contador = 0;
 
     public ContatoControl() {
@@ -20,15 +21,14 @@ public class ContatoControl {
         c1.setNome("Geralt de Rivia");
         c1.setEmail("Geralt@witcher.com");
         c1.setTelefone("(11) 1111-1111");
-        lista.add(c1);
-        
+
         Contato c2 = new Contato();
         c2.setNome("Ciri");
         c2.setEmail("Cirrila@witcher.com");
         c2.setTelefone("(11) 2222-1111");
-        lista.add(c2);
+        lista.addAll(c1, c2);
     }
-    
+
     public void gravar() {
         Contato c = new Contato();
         contador += 1;
@@ -38,11 +38,12 @@ public class ContatoControl {
         c.setEmail(this.email.get());
         c.setDataNascimento(this.nascimento.get());
         lista.add(c);
+        System.out.println("Lista tamanho: " + lista.size());
     }
 
     public void pesquisarPorNome() {
         for (Contato c : lista) {
-            if(c.getNome().toUpperCase().contains(nome.get().toUpperCase())) {
+            if (c.getNome().toUpperCase().contains(nome.get().toUpperCase())) {
                 nome.set(c.getNome());
                 telefone.set(c.getTelefone());
                 email.set(c.getEmail());
@@ -51,7 +52,7 @@ public class ContatoControl {
         }
     }
 
-    public ObservableList<Contato> getLista(){
+    public ObservableList<Contato> getLista() {
         return this.lista;
     }
 
@@ -71,5 +72,4 @@ public class ContatoControl {
         return nascimento;
     }
 
-    
 }

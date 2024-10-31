@@ -1,4 +1,4 @@
-package edu.curso.aula_10.exemplos;
+package edu.curso.aula_11.exemplos;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
