@@ -28,7 +28,7 @@ Em algumas aula eu fiz algumas anotações então dentro do pacote da aula pode 
   - [Java](https://www.oracle.com/br/java/) 
 
 # Status do projeto
-🚧Em andamento 🚧
+✅Finalizado✅
 
 Aulas:
 - [Aula 4 - Construtores, Herança, Composiçao e Agregação](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_04/)
