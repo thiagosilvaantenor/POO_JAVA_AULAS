@@ -2,6 +2,6 @@
 
 ## Necessário:
 - Usar o driver do mariaDB
-- Instalar o mariaDB
+- Instalar o mysql e verificar se o serviço do MYSQL esta rodando
 - Criar o banco de dados com o script do arquivo database.sql
-- Rodar o arquivo compilar.bat, através do cmd
+- Com o terminal usar o seguinte comando para rodar: `compilar_14.bat edu.curso.aula_14.TesteDB`

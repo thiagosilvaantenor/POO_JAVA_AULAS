@@ -7,9 +7,9 @@ import java.sql.SQLException;
 
 public class Conexao {
     private static final String DB_CLASS = "org.mariadb.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mariadb://localhost:3307/agendadb?allowPublicKeyRetrieval=true";
+    private static final String DB_URL = "jdbc:mariadb://localhost:3306/agendadb?allowPublicKeyRetrieval=true";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "alunofatec";
+    private static final String DB_PASS = "123456";
 
     private static Conexao instancia;
     private Connection connection;
