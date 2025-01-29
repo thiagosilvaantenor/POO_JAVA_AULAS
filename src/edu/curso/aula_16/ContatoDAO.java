@@ -1,4 +1,4 @@
-package edu.curso.aula16;
+package edu.curso.aula_16;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -1,4 +1,4 @@
-package edu.curso.aula16;
+package edu.curso.aula_15;
 
 import java.time.LocalDate;
 
@@ -24,7 +24,7 @@ public class ContatoControl {
 
     private int contador = 2;
 
-    public ContatoControl() throws AgendaException{ 
+    public ContatoControl() throws ContatoException{ 
         contatoDAO = new ContatoDAOImpl();
     }
 
@@ -38,13 +38,13 @@ public class ContatoControl {
         }
     }
 
-    public void excluir( Contato c )  throws AgendaException { 
+    public void excluir( Contato c )  throws ContatoException { 
         System.out.println("Excluido contato com nome: " + c.getNome());
         contatoDAO.remover(c);
         pesquisarTodos();
     }
 
-    public void gravar() throws AgendaException { 
+    public void gravar() throws ContatoException { 
         Contato c = new Contato();
         c.setNome( this.nome.get() );
         c.setTelefone( this.telefone.get() );
@@ -72,12 +72,12 @@ public class ContatoControl {
         nascimento.set(LocalDate.now());
     }
 
-    public void pesquisarPorNome()  throws AgendaException { 
+    public void pesquisarPorNome()  throws ContatoException { 
         lista.clear();
         lista.addAll( contatoDAO.pesquisarPorNome( nome.get() ) );
     }
 
-    public void pesquisarTodos()  throws AgendaException { 
+    public void pesquisarTodos()  throws ContatoException { 
         lista.clear();
         lista.addAll(contatoDAO.pesquisarTodos());
     }
