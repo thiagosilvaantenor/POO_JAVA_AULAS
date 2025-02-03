@@ -26,8 +26,8 @@
 
 
 ## Proposta do projeto
-Exercicios e exemplos feitos em aula, da disciplina de POO, do curso de Análise e desenvolvimento de sistemas da FATEC Zona Leste, conforme vou tendo as aulas vou atualizando esse repositorio<br>
-Em algumas aula eu fiz algumas anotações então dentro do pacote da aula pode ter um README da aula, a exemplo da aula 5: [Clique aqui para ver o readme da aula 5](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_05/README_AULA_05.md)
+Exercicios e exemplos feitos em aula, da disciplina de POO, do curso de Análise e desenvolvimento de sistemas da FATEC Zona Leste<br>
+Em algumas aulas eu fiz algumas anotações, então dentro do pacote da aula pode ter um README da aula, a exemplo da aula 5: [Clique aqui para ver o readme da aula 5](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/blob/main/src/edu/curso/aula_05/README_AULA_05.md)
 
 # Tecnologias
 - Linguagem
