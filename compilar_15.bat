@@ -1,4 +1,4 @@
 rmdir /S /Q ".\build\"
 mkdir build
-javac -d ./build -cp .;./lib/mariadb-java-client-3.5.1.jar ./src/edu/curso/aula_15/*.java
+javac -d ./build -cp .;./lib/mariadb-java-client-3.5.1.jar ./src/edu/curso/aula_15/model/*.java ./src/edu/curso/aula_15/persistence/*.java ./src/edu/curso/aula_15/control/*.java ./src/edu/curso/aula_15/view/*.java
 java -cp .;./build;./lib/mariadb-java-client-3.5.1.jar %1

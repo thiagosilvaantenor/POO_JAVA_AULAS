@@ -4,6 +4,15 @@
   
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
+
+<img align="" alt="Java FX" width="100" src="https://matthiasseys.com/assets/img/logos/logo-javafx.png?h=c01f036c48430d3658975355d04a9ad6"/>
+
+
+<img align="" alt="MySQL" width="100" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+
+
+<img align="" alt="MariaDB" width="100" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
+
 </div>
 
 ## Índice
@@ -26,6 +35,11 @@ Em algumas aula eu fiz algumas anotações então dentro do pacote da aula pode 
 # Tecnologias
 - Linguagem
   - [Java](https://www.oracle.com/br/java/) 
+- Bibliotecas e depêndencias
+  - [JavaFX](https://openjfx.io/)
+  - [MariaDB ODBC Driver](https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector)
+- Banco de dados
+  - [MySQL](https://www.mysql.com/)
 
 # Status do projeto
 ✅Finalizado✅
@@ -37,9 +51,14 @@ Aulas:
 - [Aula 7 - JavaFX](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_07)
 - [Aula 8 - Observer e Eventos em JavaFX](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_08)
 - [Aula 9 - Boundary Entity Control](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_09)
-- Aula 10 PROVA
+- <s> Aula 10 -  1ª PROVA </s>
 - [Aula 11 - JAVAFX Property](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_11)
 - [Aula 12 - TableView](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_12)
+- [Aula 13 - Selecionar e Excluir items da TableView](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_13)
+- [Aula 14 - Conexão com driver de banco de dados MariaDB/MYSQL](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_14)
+- [Aula 15 - CRUD com JAVA FX e banco de dados](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_15)
+- [Aula 16 - Padrão Singleton e Rederecionamento de telas ](https://github.com/thiagosilvaantenor/POO_JAVA_AULAS/tree/main/src/edu/curso/aula_16)
+- <s> Aula 17 - 2ª PROVA </s>
 ## Agradecimentos
 Agradeço ao professor Antonio Rodrigues Carvalho Neto e todos os professores da FATEC Zona Leste por todo o aprendizado passado e desafios propostos.
 
