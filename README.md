@@ -2,16 +2,13 @@
 
 <div align="center">
   
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+<img align="center" alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
 
+<img align="center" alt="Java FX" width="15%" src="https://matthiasseys.com/assets/img/logos/logo-javafx.png?h=c01f036c48430d3658975355d04a9ad6"/>
 
-<img align="" alt="Java FX" width="100" src="https://matthiasseys.com/assets/img/logos/logo-javafx.png?h=c01f036c48430d3658975355d04a9ad6"/>
+<img align="center" alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
 
-
-<img align="" alt="MySQL" width="100" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
-
-
-<img align="" alt="MariaDB" width="100" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
+<img align="center" alt="MariaDB" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
 
 </div>
 
