@@ -32,7 +32,7 @@ Em algumas aula eu fiz algumas anotações então dentro do pacote da aula pode 
 # Tecnologias
 - Linguagem
   - [Java](https://www.oracle.com/br/java/) 
-- Bibliotecas e depêndencias
+- Bibliotecas e dependências
   - [JavaFX](https://openjfx.io/)
   - [MariaDB ODBC Driver](https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector)
 - Banco de dados
